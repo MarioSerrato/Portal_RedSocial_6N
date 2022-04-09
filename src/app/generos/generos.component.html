@@ -1,0 +1,12 @@
+<table>
+    <tr>
+      <th>Clave</th>
+      <th>Descripcion</th>    
+    </tr>
+    <tr *ngFor="let genero of generoService.listaGeneros">
+      <td>{{genero.id}}</td>
+      <td>{{genero.descripcion}}</td>
+     
+    </tr>
+   
+  </table>
